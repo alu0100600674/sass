@@ -12,6 +12,11 @@ sass_engine = Sass::Engine.new(template)
 output = sass_engine.render
 puts output
 
+fichero = File.new('public/css/style.css', 'w')
+
+fichero.write(output)
+fichero.close
+
 get '/' do
   erb :index
 end
