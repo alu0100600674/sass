@@ -1,5 +1,16 @@
 # -*- coding: utf-8 -*-
 require 'sinatra'
+require 'sass'
+require 'compass'
+
+#Usando SASS
+#Sass::Plugin.options[:style] = :compressed
+#use Sass::Plugin::Rack
+
+template = File.read('public/sass/style.sass')
+sass_engine = Sass::Engine.new(template)
+output = sass_engine.render
+puts output
 
 get '/' do
   erb :index
