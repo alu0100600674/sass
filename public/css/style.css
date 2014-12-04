@@ -1,0 +1,45 @@
+.centrar {
+  text-align: center; }
+
+body {
+  background-color: #4C7ECA; }
+
+#cabecera {
+  height: 150px; }
+  #cabecera h1 {
+    color: #FFAA41; }
+  #cabecera h2 {
+    color: #FFAA41; }
+  #cabecera h3 {
+    color: #FFAA41; }
+  #cabecera h4 {
+    color: #FFAA41; }
+  #cabecera h5 {
+    color: #FFAA41; }
+  #cabecera h6 {
+    color: #FFAA41; }
+
+#contenido {
+  height: 450px; }
+
+#ejemplos h1 {
+  color: green; }
+#ejemplos h2 {
+  color: green; }
+#ejemplos h3 {
+  color: green; }
+#ejemplos h4 {
+  color: green; }
+#ejemplos h5 {
+  color: green; }
+#ejemplos h6 {
+  color: green; }
+#ejemplos div {
+  border: 2px solid black;
+  margin: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 200px; }
+
+#pie {
+  height: 50px; }

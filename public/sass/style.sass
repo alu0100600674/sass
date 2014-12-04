@@ -1,8 +1,47 @@
-$color1: blue
-$color2: red
+//Variables
+$color-fondo: #4C7ECA
+$color-titu1: #FFAA41
+$color-titu2: green
+$aumento-tit: 10
+
+//Mixin para dar un color a los títulos
+=titulos($color, $factor)
+  h1
+    color: $color
+    //font-size: 100
+  h2
+    color: $color
+    //font-size: 100
+  h3
+    color: $color
+  h4
+    color: $color
+  h5
+    color: $color
+  h6
+    color: $color
+
+.centrar
+  text-align: center
 
 body
-  color: $color2
-  background-color: $color1
-  h1
-    color: $color2
+  background-color: $color-fondo
+
+#cabecera
+  +titulos($color-titu1, $aumento-tit)
+  height: 150px
+
+#contenido
+  height: 450px
+
+#ejemplos
+  +titulos($color-titu2, 0)
+  div
+    border: 2px solid black
+    margin: 3px
+    padding-left: 5px
+    padding-right: 5px
+    height: 200px
+
+#pie
+  height: 50px
