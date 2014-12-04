@@ -20,7 +20,7 @@ body {
   height: 150px; }
   #cabecera h1 {
     color: #FFAA41;
-    font-size: 60px px; }
+    font-size: 3em; }
   #cabecera h2 {
     color: #FFAA41;
     font-size: 40px px; }
@@ -42,7 +42,7 @@ body {
 
 #ejemplos h1 {
   color: green;
-  font-size: 50px px; }
+  font-size: 3em; }
 #ejemplos h2 {
   color: green;
   font-size: 30px px; }
