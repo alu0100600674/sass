@@ -2,46 +2,64 @@
 $color-fondo: #4C7ECA
 $color-titu1: #FFAA41
 $color-titu2: green
-$aumento-tit: 10
+$aumento-tit: 5
 
 //Mixin para dar un color a los títulos
 =titulos($color, $factor)
   h1
     color: $color
-    //font-size: 100
+    font-size: (50px + $factor)px
   h2
     color: $color
-    //font-size: 100
+    font-size: (30px + $factor)px
   h3
     color: $color
+    font-size: (24px + $factor)px
   h4
     color: $color
+    font-size: (18px + $factor)px
   h5
     color: $color
+    font-size: (14px + $factor)px
   h6
     color: $color
+    font-size: (12px + $factor)px
 
 .centrar
   text-align: center
+
+.cuadro
+  border: 2px solid black
+  margin: 3px
+  padding-left: 5px
+  padding-right: 5px
+
+.cuadro1
+  @extend .cuadro
+  border: 2px solid green
+
+.cuadro2
+  @extend .cuadro
+  border: 2px solid red
 
 body
   background-color: $color-fondo
 
 #cabecera
-  +titulos($color-titu1, $aumento-tit)
+  +titulos($color-titu1, 10)
   height: 150px
 
 #contenido
-  height: 450px
+  height: 70px
 
 #ejemplos
   +titulos($color-titu2, 0)
   div
-    border: 2px solid black
-    margin: 3px
-    padding-left: 5px
-    padding-right: 5px
-    height: 200px
+    //border: 2px solid black
+    //margin: 3px
+    //padding-left: 5px
+    //padding-right: 5px
+    height: 350px
 
 #pie
   height: 50px
