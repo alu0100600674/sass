@@ -1,0 +1,65 @@
+.centrar {
+  text-align: center; }
+
+.cuadro, .cuadro1, .cuadro2 {
+  border: 2px solid black;
+  margin: 3px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.cuadro1 {
+  border: 2px solid green; }
+
+.cuadro2 {
+  border: 2px solid red; }
+
+body {
+  background-color: #4C7ECA; }
+
+#cabecera {
+  height: 150px; }
+  #cabecera h1 {
+    color: #FFAA41;
+    font-size: 60px px; }
+  #cabecera h2 {
+    color: #FFAA41;
+    font-size: 40px px; }
+  #cabecera h3 {
+    color: #FFAA41;
+    font-size: 34px px; }
+  #cabecera h4 {
+    color: #FFAA41;
+    font-size: 28px px; }
+  #cabecera h5 {
+    color: #FFAA41;
+    font-size: 24px px; }
+  #cabecera h6 {
+    color: #FFAA41;
+    font-size: 22px px; }
+
+#contenido {
+  height: 70px; }
+
+#ejemplos h1 {
+  color: green;
+  font-size: 50px px; }
+#ejemplos h2 {
+  color: green;
+  font-size: 30px px; }
+#ejemplos h3 {
+  color: green;
+  font-size: 24px px; }
+#ejemplos h4 {
+  color: green;
+  font-size: 18px px; }
+#ejemplos h5 {
+  color: green;
+  font-size: 14px px; }
+#ejemplos h6 {
+  color: green;
+  font-size: 12px px; }
+#ejemplos div {
+  height: 350px; }
+
+#pie {
+  height: 50px; }
